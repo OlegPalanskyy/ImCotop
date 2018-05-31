@@ -14,4 +14,4 @@ ONE_HOUR = 60
 number_n = int(input('введите время в минутах: '))
 hours = number_n // ONE_HOUR % 24
 mins = number_n // 1 % ONE_HOUR
-print('часов:',hours,'минут:',mins)
+print('часов:', hours,'минут:', mins)
