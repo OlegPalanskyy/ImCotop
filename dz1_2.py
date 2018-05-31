@@ -9,7 +9,7 @@
 
 """
 
-start_date = int(input('Введите текущий год: '))
+START_DATA = 2018
 birthday_data = int(input('Введите год рождения: '))
-result = start_date - birthday_data
+result = START_DATA - birthday_data
 print('Ваш возраст', result, 'лет')
