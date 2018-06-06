@@ -21,6 +21,6 @@ len_name = len(name)
 line_2 = ' ' * int((len_line / 2) - (len_name / 2))
 
 print(line_1)
-print('*' + line_2 + name + line_2 + "*")
+print('*' + line_2 + name + line_2 + '*')
 print(line_1)
 
