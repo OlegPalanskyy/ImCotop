@@ -10,5 +10,4 @@ def IsPrime(n):
     return d == n
 
 number = int(input('Введите число для провверки:'))
-isprime = IsPrime(number)
-print(isprime)
+print(IsPrime(number))
