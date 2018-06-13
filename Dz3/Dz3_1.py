@@ -3,11 +3,11 @@
 True или False в зависимости от того, простое это число или нет
 """
 
-def IsPrime(n):
+def Is_Prime(n):
     d = 2
     while n % d != 0:
         d += 1
     return d == n
 
 number = int(input('Введите число для провверки:'))
-print(IsPrime(number))
+print(Is_Prime(number))
